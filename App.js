@@ -6,7 +6,7 @@ import CardFlatlist from './src/CardFlatlist';
 const App = () => {
   return (
     <View style={styles.container}>
-      <FlatlistComponent />
+      <CardComponent />
     </View>
   );
 }
