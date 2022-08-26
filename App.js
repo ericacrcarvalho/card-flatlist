@@ -1,12 +1,12 @@
 import { StyleSheet, Text, View } from 'react-native';
 import FlatlistComponent from './src/FlatlistComponent';
 import CardComponent from './src/CardComponent';
-import CardFlatlist from './src/CardFlatlist';
+import CardFlatlistModalize from './src/CardFlatlistModalize';
 
 const App = () => {
   return (
     <View style={styles.container}>
-      <CardComponent />
+      <CardFlatlistModalize />
     </View>
   );
 }
